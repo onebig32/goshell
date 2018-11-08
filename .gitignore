@@ -1,0 +1,11 @@
+# yii console command
+#yii
+
+# phpstorm project files
+.idea
+
+# local config
+config.conf
+main
+customer_service
+logs/
