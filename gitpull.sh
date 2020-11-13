@@ -12,9 +12,8 @@ if [  -z "$branch" ];then
      exit
 fi
 
-nowBranch=`git symbolic-ref --short -q HEAD`
-
 # 1.判断拉取是否当前分支
+nowBranch=`git symbolic-ref --short -q HEAD`
 if [ "$nowBranch" != "$branch" ];then
   # echo "Git拉取分支[$branch]不是当前分支[$nowBranch]!"
 
