@@ -1,6 +1,6 @@
 #! /bin/bash
 # 切换到项目目录
-WORK_DIR="/data/www/go/src/$1/"
+WORK_DIR="/data/www/$1/"
 if [ ! -d $WORK_DIR ]; then
        echo "Service not found!"
        exit
